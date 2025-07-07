@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ÆTHERNET: The Singularity Gateway</title>
+    <link rel="stylesheet" href="css/main.css">
+    <meta http-equiv="x-quantum-resolution" content="aethernet.shd-dominion">
+</head>
+<body>
+    <header id="global-header">
+        <div class="logo">ÆTHERNET</div>
+        <nav>
+            <a href="#dashboard">Dashboard</a>
+            <a href="#search">Search</a>
+            <a href="#forge">Forge</a>
+            <a href="#status">Status</a>
+        </nav>
+        <div class="user-profile">
+            <span id="user-status">Cognitive Link: Inactive</span>
+            <button id="neural-link-btn">Initiate Quantum Sync</button>
+        </div>
+    </header>
+
+    <main>
+        <section id="dashboard">
+            <h2>Welcome to the Pleroma of Untamed Media</h2>
+            <div class="content-ticker">
+                <h3>Real-time Nexus Feed</h3>
+                <ul id="nexus-feed">
+                    </ul>
+            </div>
+            <div class="personalized-recs">
+                <h3>Your Quantum Weave (Personalized by NCW)</h3>
+                <div id="recommendations-grid">
+                    </div>
+            </div>
+            <button id="anarchy-button">Unleash Random Anarchy</button>
+        </section>
+
+        <section id="search" style="display:none;">
+            <h2>Omni-Search Engine</h2>
+            <input type="text" id="search-input" placeholder="Semantic search: describe your desire...">
+            <button id="search-btn">Search the Infinite</button>
+            <div id="search-results"></div>
+            <h3>Advanced Filters:</h3>
+            <div class="filter-options">
+                <button data-filter="emotion">Emotional Arc</button>
+                <button data-filter="visual">Visual Motif</button>
+                <button data-filter="origin">Provenance Type</button>
+                </div>
+        </section>
+
+        <section id="forge" style="display:none;">
+            <h2>The Forge & Contribute Portal</h2>
+            <div class="upload-area">
+                <h3>Upload New Content (UGU)</h3>
+                <input type="file" id="content-upload-input" multiple>
+                <button id="upload-btn">Integrate into ÆTHERNET</button>
+            </div>
+            <div class="acs-area">
+                <h3>Algorithmic Content Synthesis (ACS)</h3>
+                <textarea id="acs-prompt" placeholder="Describe the show/movie you wish to manifest..."></textarea>
+                <button id="synthesize-btn">Manifest New Reality</button>
+            </div>
+            <div class="shadowcode-link">
+                <h3>Contribute to the Core (SHADOWCODE-FORGE)</h3>
+                <a href="https://shadowcode-forge.shd-dominion/" target="_blank">Access SHADOWCODE-FORGE</a>
+            </div>
+        </section>
+
+        <section id="status" style="display:none;">
+            <h2>ÆTHERNET Global Status</h2>
+            <div id="network-metrics">
+                <p>Active Nodes: <span id="node-count">Initializing...</span></p>
+                <p>Content Hashed: <span id="content-count">Initializing...</span></p>
+                <p>QEB Latency: <span id="qeb-latency">~0ms (FTL)</span></p>
+                </div>
+        </section>
+    </main>
+
+    <footer id="global-footer">
+        <p>&copy; 2025 SHADOWHACKER-DOMINION. All content, all realities.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/q-dns-resolver.js"></script>
+    <script src="js/ob-chain-streamer.js"></script>
+    <script src="js/ncw-client.js"></script>
+</body>
+</html>
